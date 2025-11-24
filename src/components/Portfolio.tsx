@@ -24,7 +24,7 @@ const portfolioItems: PortfolioItem[] = [
     title: "Midnight Pheras, Udaipur",
     location: "Udaipur Palace",
     image:
-      "https://images.unsplash.com/photo-1520854223473-68ce3b149f9c?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=900&q=80",
   },
   {
     category: "wedding",
@@ -52,7 +52,7 @@ const portfolioItems: PortfolioItem[] = [
     title: "Parisian Affair",
     location: "Paris",
     image:
-      "https://images.unsplash.com/photo-1520854223473-68ce3b149f9c?auto=format&fit=crop&w=1100&q=80",
+      "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=900&q=80",
   },
   {
     category: "prewedding",
@@ -80,7 +80,8 @@ const portfolioItems: PortfolioItem[] = [
     title: "Couture Cocktail Night",
     location: "Bengaluru",
     image:
-      "https://images.unsplash.com/photo-1530023367847-a683933f417f?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?auto=format&fit=crop&w=1000&q=80",
+    video: "https://www.youtube.com/embed/0Q7DV-bZcKg",
   },
   {
     category: "films",

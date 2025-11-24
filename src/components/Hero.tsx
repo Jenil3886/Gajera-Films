@@ -79,7 +79,7 @@ const Hero = () => {
             <p className="uppercase tracking-[0.55em] sm:tracking-[0.7em] text-[0.7rem] sm:text-xs text-soft-grey">
               Surat · Gujarat · India
             </p>
-            <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-[4.3rem] font-semibold leading-tight text-balance text-gradient-gold">
+            <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-[4.3rem] font-semibold leading-tight text-balance text-gradient-gold pb-2">
               Gajera Films
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-soft-grey/90 font-light leading-relaxed">
@@ -154,7 +154,7 @@ const Hero = () => {
               </div>
               <div className="rounded-2xl border border-white/10 p-4 flex flex-col sm:flex-row gap-4 text-sm text-soft-grey text-left">
                 <div>
-                  <p className="text-white text-xs uppercase tracking-[0.4em]">
+                  <p className="text-white text-nowrap text-xs uppercase tracking-[0.4em]">
                     Direct Lines
                   </p>
                   <a href="tel:+919904113173" className="text-white block">
