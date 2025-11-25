@@ -189,7 +189,7 @@ const Contact = () => {
                 <div className="space-y-2">
                   <div className="flex items-center gap-3 text-soft-grey">
                     <Mail className="w-5 h-5 text-primary" />
-                    <a href="mailto:hello@gajerafilms.com">hello@gajerafilms.com</a>
+                    <a href="mailto:hello@gajerafilms.com">gajerafilms01@gmail.com</a>
                   </div>
 
                   <div className="flex items-center gap-3 text-soft-grey">

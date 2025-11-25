@@ -1,19 +1,19 @@
 import { Camera, Film, Award, MapPin } from "lucide-react";
+import darshan from "@/assets/DaeshanGajera.jpg";
+import prince from "@/assets/PrinceGajera.jpg";
 
 const owners = [
   {
     name: "Gajera Darshan",
     title: "Lead Cinematographer",
     phone: "9904113173",
-    portrait:
-      "https://images.unsplash.com/photo-1504593811423-6dd665756598?auto=format&fit=crop&w=600&q=80",
+    portrait: darshan,
   },
   {
     name: "Gajera Prince",
     title: "Creative Director",
     phone: "8347977413",
-    portrait:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=600&q=80",
+    portrait:prince
   },
 ];
 

@@ -132,10 +132,24 @@ const Portfolio = () => {
             Portfolio
           </p>
           <h2>Masonry Gallery</h2>
-          <p>Wedding · Pre-Wedding · Events · Films</p>
+          {/* <p>Wedding · Pre-Wedding · Events · Films</p> */}
+          <p className="flex justify-center flex-wrap gap-1">
+            {categories.map((cat, index) => (
+              <span
+                key={cat.id}
+                onClick={() => setActiveCategory(cat.id)}
+                className={`cursor-pointer ${
+                  activeCategory === cat.id ? "text-primary pb-1 border-b-2 rounded border-primary sm:border-0" : "text-soft-grey"
+                }`}
+              >
+                {cat.label}
+                {index !== categories.length - 1 && " ·"}
+              </span>
+            ))}
+          </p>
         </div>
 
-        <div className="flex flex-wrap justify-center gap-3 mb-12 max-w-lg mx-auto">
+        <div className="hidden sm:flex sm:flex-wrap sm:justify-center sm:gap-3 sm:mb-12 sm:max-w-xl sm:mx-auto">
           {categories.map((cat) => (
             <button
               key={cat.id}

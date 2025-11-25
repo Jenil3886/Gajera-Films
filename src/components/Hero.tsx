@@ -177,7 +177,7 @@ const Hero = () => {
       </div>
 
       {/* Scroll Indicator */}
-      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center animate-fade-in-up">
+      <div className="hidden sm:flex sm:absolute sm:bottom-10 sm:left-1/2 sm:-translate-x-1/2 sm:flex-col sm:items-center sm:animate-fade-in-up">
         <span className="text-xs uppercase tracking-[0.4em] text-soft-grey mb-3">
           Scroll
         </span>
@@ -185,6 +185,7 @@ const Hero = () => {
           <div className="w-[2px] h-4 bg-primary rounded-full animate-[scrollBounce_1.6s_ease-in-out_infinite]" />
         </div>
       </div>
+
     </section>
   );
 };
