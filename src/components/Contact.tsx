@@ -28,6 +28,8 @@ const Contact = () => {
     setFormData((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   };
 
+  const today = new Date().toISOString().split("T")[0];
+
   // ===========================
   // 📩 SEND EMAIL FUNCTION
   // ===========================
@@ -135,7 +137,8 @@ const Contact = () => {
                       name="date"
                       value={formData.date}
                       onChange={handleChange}
-                      className="mt-2 bg-black/40 border-white/15 text-white"
+                      min={today}
+                      className="mt-2 bg-black/40 border-white/15 text-soft-grey"
                     />
                   </div>
 
