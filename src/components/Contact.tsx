@@ -204,6 +204,7 @@ const Contact = () => {
                 <div className="flex gap-4">
                   <a
                     href="https://instagram.com"
+                    target=""
                     className="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center hover:border-white transition"
                     aria-label="Instagram"
                   >
@@ -214,6 +215,7 @@ const Contact = () => {
                     href="https://youtube.com"
                     className="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center hover:border-white transition"
                     aria-label="YouTube"
+                    target=""
                   >
                     <Youtube className="w-5 h-5 text-white" />
                   </a>

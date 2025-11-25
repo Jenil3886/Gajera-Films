@@ -50,7 +50,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-center justify-center overflow-hidden bg-black py-20 sm:pt-[110px]- sm:pb-28"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden bg-black py-[8rem] sm:py-20 sm:pb-28"
     >
       {/* Cinematic video background */}
       <div className="absolute inset-0">
