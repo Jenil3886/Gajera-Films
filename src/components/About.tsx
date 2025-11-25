@@ -1,6 +1,6 @@
 import { Camera, Film, Award, MapPin } from "lucide-react";
-import darshan from "@/assets/DaeshanGajera.jpg";
-import prince from "@/assets/PrinceGajera.jpg";
+import darshan from "@/assets/DaeshanGajera.webp";
+import prince from "@/assets/PrinceGajera.webp";
 
 const owners = [
   {

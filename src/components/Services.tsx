@@ -3,9 +3,9 @@ import { Heart, Users, Baby, Plane, Video, Camera } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card.tsx";
 import ServiceDetailModal from "./ServiceDetailModal";
 import weddingImage from "@/assets/portfolio-wedding-1.jpg";
-import preweddingImage from "@/assets/portfolio-prewedding-1.jpg";
-import eventImage from "@/assets/portfolio-event-1.jpg";
-import babyImage from "@/assets/portfolio-baby-1.jpg";
+import preweddingImage from "@/assets/portfolio-prewedding-1.webp";
+import eventImage from "@/assets/portfolio-event-1.webp";
+import babyImage from "@/assets/portfolio-baby-1.webp";
 
 const Services = () => {
   const [selectedService, setSelectedService] = useState<any>(null);
@@ -225,7 +225,7 @@ const Services = () => {
           backgroundSize: "cover",
         }}
       >
-        <div className="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/asfalt-dark.png')]" />
+        <div className="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/asfalt-dark.webp')]" />
         <div className="relative max-w-7xl mx-auto">
           <div className="section-heading animate-fade-in-up">
             <p className="text-sm uppercase tracking-[0.5em] text-primary mb-4">
