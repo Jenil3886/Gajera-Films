@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Dialog, DialogContent } from "@/components/ui/dialog";
+import { Dialog, DialogContent } from "@/components/ui/dialog.tsx";
 
 type Category = "wedding" | "prewedding" | "events" | "films";
 

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Heart, Users, Baby, Plane, Video, Camera } from "lucide-react";
-import { Card, CardContent } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card.tsx";
 import ServiceDetailModal from "./ServiceDetailModal";
 import weddingImage from "@/assets/portfolio-wedding-1.jpg";
 import preweddingImage from "@/assets/portfolio-prewedding-1.jpg";
