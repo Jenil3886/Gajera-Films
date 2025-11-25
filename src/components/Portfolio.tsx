@@ -149,7 +149,7 @@ const Portfolio = () => {
           </p>
         </div>
 
-        <div className="hidden sm:flex sm:flex-wrap sm:justify-center sm:gap-3 sm:mb-12 sm:max-w-xl sm:mx-auto">
+        <div className="hidden sm:flex sm:flex-wrap sm:justify-center sm:gap-3 sm:mb-12 sm:max-w-2xl sm:mx-auto">
           {categories.map((cat) => (
             <button
               key={cat.id}
