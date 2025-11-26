@@ -95,7 +95,7 @@ const Contact = () => {
             Contact
           </p>
           <h2>Reserve your date with Gajera Films</h2>
-          <p>Mobile-first experience · Replies within 24 hrs · Travel ready</p>
+          <p>Mobile-first experience · Replies within 24 hrs · Travel ready. View our <a href="#services" className="text-primary hover:underline">wedding photography packages</a> and <a href="#portfolio" className="text-primary hover:underline">portfolio</a> before booking.</p>
         </div>
 
         <div className="grid gap-10 lg:grid-cols-[1.1fr_0.9fr]">

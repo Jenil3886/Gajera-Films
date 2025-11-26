@@ -231,10 +231,10 @@ const Services = () => {
             <p className="text-sm uppercase tracking-[0.5em] text-primary mb-4">
               Bespoke offerings
             </p>
-            <h2>Signature Services</h2>
+            <h2>Signature Services - Wedding Photography in Surat</h2>
             <p>
-              Six meticulously curated experiences covering weddings,
-              celebrations, aerial storytelling, and luxe films.
+              Six meticulously curated experiences covering <a href="#portfolio" className="text-primary hover:underline">weddings</a>,
+              celebrations, aerial storytelling, and luxe films. <a href="#contact" className="text-primary hover:underline">Contact us</a> to book your perfect package.
             </p>
           </div>
 

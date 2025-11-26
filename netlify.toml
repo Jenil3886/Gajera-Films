@@ -8,7 +8,13 @@
 [build.environment]
   NODE_VERSION = "18"
 
-# Redirects
+# Redirects - 301 redirects for www/non-www and SPA routing
+[[redirects]]
+  from = "https://www.gajera-films.netlify.app/*"
+  to = "https://gajera-films.netlify.app/:splat"
+  status = 301
+  force = true
+
 [[redirects]]
   from = "/*"
   to = "/index.html"

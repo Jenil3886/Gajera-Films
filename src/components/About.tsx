@@ -58,13 +58,13 @@ const About = () => {
             weaving together analog textures, medium-format inspired framing,
             and modern motion techniques. From pheras to champagne toasts, our
             crew is obsessed with preserving feeling in the quiet in-between
-            moments.
+            moments. Explore our <a href="#services" className="text-primary hover:underline">wedding photography services</a> and <a href="#portfolio" className="text-primary hover:underline">view our portfolio</a> to see our work.
           </p>
           <p className="text-soft-grey/90 text-base leading-relaxed">
             Our signature approach layers creamy highlights, deep cinematic
             blacks, and handheld energy to deliver imagery that feels intimate,
             opulent, and timeless. Every deliverable is handcrafted from Surat,
-            ready for global celebrations.
+            ready for global celebrations. <a href="#contact" className="text-primary hover:underline">Contact us</a> to book your <a href="#services" className="text-primary hover:underline">wedding photography</a> or <a href="#services" className="text-primary hover:underline">pre-wedding shoot</a> today.
           </p>
 
           <div className="grid gap-5 sm:grid-cols-3">

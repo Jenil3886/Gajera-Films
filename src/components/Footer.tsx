@@ -30,7 +30,7 @@ const Footer = () => {
             </h3>
             <p className="text-soft-grey max-w-sm">
               Premium photography & filmmaking collective crafting cinematic
-              keepsakes for modern couples and brands.
+              keepsakes for modern couples and brands. Explore our <a href="#services" className="text-primary hover:underline">services</a> and <a href="#portfolio" className="text-primary hover:underline">portfolio</a>.
             </p>
             <div className="flex gap-4">
               {socialLinks.map((social) => (

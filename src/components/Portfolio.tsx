@@ -131,8 +131,8 @@ const Portfolio = () => {
           <p className="text-sm uppercase tracking-[0.45em] text-primary mb-4">
             Portfolio
           </p>
-          <h2>Masonry Gallery</h2>
-          {/* <p>Wedding · Pre-Wedding · Events · Films</p> */}
+          <h2>Wedding Photography Portfolio - Surat, Gujarat</h2>
+          <p className="text-soft-grey mb-4">Explore our <a href="#services" className="text-primary hover:underline">wedding photography services</a> and see our work from <a href="#services" className="text-primary hover:underline">pre-wedding shoots</a> to <a href="#services" className="text-primary hover:underline">cinematic wedding films</a>. <a href="#contact" className="text-primary hover:underline">Book your session</a> today.</p>
           <p className="flex justify-center flex-wrap gap-1">
             {categories.map((cat, index) => (
               <span
