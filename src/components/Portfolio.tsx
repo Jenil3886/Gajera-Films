@@ -174,9 +174,11 @@ const Portfolio = () => {
             >
               <img
                 src={item.image}
-                alt={item.title}
+                alt={`${item.title} - ${item.category} photography by Gajera Films in ${item.location}`}
                 className="w-full h-full object-cover transition duration-700 group-hover:scale-105"
                 loading="lazy"
+                width="800"
+                height="600"
               />
               <div className="absolute inset-0 border border-white/10 pointer-events-none" />
               <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent opacity-70 group-hover:opacity-90 transition-opacity duration-500" />
@@ -209,8 +211,10 @@ const Portfolio = () => {
                 ) : (
                   <img
                     src={selectedItem.image}
-                    alt={selectedItem.title}
+                    alt={`${selectedItem.title} - ${selectedItem.category} photography by Gajera Films in ${selectedItem.location}`}
                     className="w-full h-full object-cover"
+                    width="1920"
+                    height="1080"
                   />
                 )}
                 <div className="absolute inset-0 border border-white/20" />

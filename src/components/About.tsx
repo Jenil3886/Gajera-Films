@@ -44,9 +44,11 @@ const About = () => {
               Surat · Gujarat · India
             </p>
             <h2 className="text-4xl md:text-5xl leading-tight">
-              Crafted cinema, soulful photography, and stories that feel like
-              luxury films.
+              About Gajera Films - Premium Wedding Photographer in Surat
             </h2>
+            <p className="text-lg text-soft-grey mt-4">
+              Crafted cinema, soulful photography, and stories that feel like luxury films.
+            </p>
             <div className="h-1 w-20 luxury-gradient mt-6" />
           </div>
 
@@ -96,9 +98,11 @@ const About = () => {
               <div className="w-36 h-36 rounded-2xl overflow-hidden shrink-0 gold-glow">
                 <img
                   src={owner.portrait}
-                  alt={owner.name}
+                  alt={`${owner.name} - ${owner.title} at Gajera Films Wedding Photography Surat`}
                   className="w-full h-full object-cover"
                   loading="lazy"
+                  width="144"
+                  height="144"
                 />
               </div>
               <div className="text-center sm:text-left space-y-2">

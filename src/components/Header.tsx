@@ -62,7 +62,7 @@ const Header = () => {
             onClick={(e) => {
               e.preventDefault();
               handleNavClick("#home");
-            }} alt="Gajera Films" className="w-[250px] h-[70px]" />
+            }} alt="Gajera Films - Best Wedding Photographer in Surat, Gujarat" className="w-[250px] h-[70px]" />
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-8">

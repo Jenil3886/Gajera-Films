@@ -1,0 +1,45 @@
+# Netlify Headers Configuration for SEO & Performance
+# https://gajera-films.netlify.app/
+
+/*
+  # Security Headers
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  X-XSS-Protection: 1; mode=block
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=()
+
+  # Cache Control
+  Cache-Control: public, max-age=3600, must-revalidate
+
+# Static Assets - Long Cache
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Images - Medium Cache
+/*.jpg
+  Cache-Control: public, max-age=15552000
+
+/*.jpeg
+  Cache-Control: public, max-age=15552000
+
+/*.png
+  Cache-Control: public, max-age=15552000
+
+/*.webp
+  Cache-Control: public, max-age=15552000
+
+/*.svg
+  Cache-Control: public, max-age=15552000
+
+# HTML - Short Cache
+/*.html
+  Cache-Control: public, max-age=3600, must-revalidate
+
+# Sitemap and Robots
+/sitemap.xml
+  Cache-Control: public, max-age=86400
+
+/robots.txt
+  Cache-Control: public, max-age=86400
+

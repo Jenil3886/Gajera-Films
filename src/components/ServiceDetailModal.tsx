@@ -114,8 +114,11 @@ const ServiceDetailModal = ({ service, open, onOpenChange }: ServiceDetailModalP
                   >
                     <img
                       src={image}
-                      alt={`${service.title} sample ${index + 1}`}
+                      alt={`${service.title} portfolio sample ${index + 1} - Gajera Films ${service.title.toLowerCase()} in Surat, Gujarat`}
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      loading="lazy"
+                      width="400"
+                      height="400"
                     />
                     <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   </div>
