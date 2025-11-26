@@ -79,9 +79,12 @@ const Hero = () => {
             <p className="uppercase tracking-[0.55em] sm:tracking-[0.7em] text-[0.7rem] sm:text-xs text-soft-grey">
               Surat · Gujarat · India
             </p>
-            <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-[2.5rem] font-semibold leading-tight text-balance text-gradient-gold pb-2">
-              Gajera Films <br/> - Best Wedding Photographer in Surat, Gujarat
+            <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-[4.3rem] font-semibold leading-tight text-balance text-gradient-gold pb-2">
+              Gajera Films
             </h1>
+            <p className="text-base sm:text-lg md:text-xl text-soft-grey/90 font-light leading-relaxed">
+              — Cinematic Photography & Filmmaking
+            </p>
             <p className="text-base sm:text-lg md:text-xl text-soft-grey/90 font-light leading-relaxed">
               Luxury wedding storytellers crafting immersive frames with soulful
               color grading, buttery motion, and sentimental audio layers for
